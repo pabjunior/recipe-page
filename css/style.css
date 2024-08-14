@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --bodyBg: hsl(330, 100%, 98%);
+  --mainBg: hsl(0, 0%, 100%);
+
+  --bodyColor: hsl(30, 10%, 34%);
+  --mainColor: hsl(24, 5%, 18%);
+  --secondaryColor: hsl(14, 45%, 36%);
+  --alternateColor: hsl(332, 51%, 32%);
+
+  --borderColor: hsl(30, 18%, 87%);
+}
+
+body {
+  background-color: var(--bodyBg);
+  color: var(--bodyColor);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+  margin: 15px 0;
+  color: var(--mainColor);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--mainColor);
+}
+
+ul {
+  line-height: 1.8;
+  padding-left: 25px;
+}
+
+li {
+  padding-left: 20px;
+}
+
+li::marker {
+  color: var(--secondaryColor);
+  font-weight: 500;
+}
+
+strong {
+  color: var(--mainColor);
+}
+
+.container img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.container h2 {
+  color: var(--secondaryColor);
+}
+
+.container .preparation {
+  background-color: var(--bodyBg);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.container .preparation h3 {
+  color: var(--alternateColor);
+  margin-bottom: 10px;
+}
+
+.container .ingredients,
+.container .instructions {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid var(--borderColor);
+}
+
+.container .instructions li {
+  list-style-type: decimal;
+}
+
+.container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.container table strong {
+  color: var(--secondaryColor);
+}
+
+.container table tr {
+  border-bottom: 1px solid var(--borderColor);
+}
+
+.container table tr:last-child {
+  border: none;
+}
+
+.container table td {
+  padding: 15px 30px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  background-color: var(--mainBg);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.text-xl {
+  font-size: 2rem;
+}
+
+.text-lg {
+  font-size: 1.8rem;
+}
+
+.text-md {
+  font-size: 1.6rem;
+}
+
+.text-sm {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 670px) {
+  .container {
+    margin: 0 auto;
+  }
+}
