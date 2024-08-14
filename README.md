@@ -21,8 +21,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/responsive-recipe-page-using-html-and-css-G2dkJZgCrE](https://magical-clafoutis-cf8ff6.netlify.app/)
-- Live Site URL: [https://app.netlify.com/sites/magical-clafoutis-cf8ff6/overview](https://magical-clafoutis-cf8ff6.netlify.app/)
+- Solution URL: [Frontend mentor](https://magical-clafoutis-cf8ff6.netlify.app/)
+- Live Site URL: [Netlify](https://magical-clafoutis-cf8ff6.netlify.app/)
 
 ## My process
 
